@@ -1,0 +1,42 @@
+.choices{
+  display:flex;
+  flex-direction: row;
+  justify-content:center;
+}
+
+.choice{
+  border: 1px;
+  border-color: red;
+  color: green;
+  padding: 20px;
+  
+}
+
+#menu{
+  display:flex;
+  justify-content:center;
+}
+
+.menu_item{
+  padding:20px;
+}
+
+.container{
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#winStatus{
+  display: flex;
+justify-content: center;  
+}
+
+.selection{
+  height:200px;
+  width: 200px;
+}
+
+#winDisplay{
+  font-size: 100;
+}
