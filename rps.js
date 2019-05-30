@@ -25,7 +25,6 @@ $(document).ready(function(){
   var wins = 0;
   var losses = 0;
   var draws = 0;
-  var winRatio = 0;
   var gamesPlayed = 0;
 
   resultsDisplay.hide();
