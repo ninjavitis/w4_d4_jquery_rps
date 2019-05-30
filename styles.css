@@ -38,10 +38,16 @@
 justify-content: center;  
 }
 
-.selection{
+#selectionSpacer{
   height:400px;
   width: 400px;
+}
+
+.selection{
+  height:500px;
+  width: 500px;
   box-shadow: 10px 10px 5px black;
+  margin: 5px;
 
 }
 
