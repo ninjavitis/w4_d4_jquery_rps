@@ -85,15 +85,15 @@ $(document).ready(function(){
   function winDisplay(winStatus){
   switch(winStatus){
     case 'win':
-      gameEndState.text('YOU WIN!').css({"color":"#9E00FF", "font-size":"75px"});
+      gameEndState.text('YOU WIN!').css({"color":"#80FF00", "font-size":"75px"});
       wins++;
       break;
     case 'lose':
-      gameEndState.text('YOU LOSE!').css({"color":"#FF5500", "font-size":"75px"});
+      gameEndState.text('YOU LOSE!').css({"color":"#FF0049", "font-size":"75px"});
       losses++;
       break;
     case 'draw':
-      gameEndState.text('DRAW!').css({"color":"#06D0E4", "font-size":"75px"});
+      gameEndState.text('DRAW!').css({"color":"#D0D0D0", "font-size":"75px"});
       draws++;
       break;
   }

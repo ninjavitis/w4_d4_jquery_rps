@@ -1,3 +1,7 @@
+.container{
+  background-color: #2B2B2B;
+}
+
 .choices{
   display:flex;
   flex-direction: row;
@@ -7,8 +11,10 @@
 .choice{
   border: 1px;
   border-color: red;
-  color: green;
+  color: #D100FF;
   padding: 20px;
+  font-family: Impact, Charcoal, sans-serif;
+
   
 }
 
@@ -21,7 +27,7 @@
   padding:20px;
 }
 
-.container{
+.displayArea{
   display:flex;
   flex-direction: row;
   justify-content: center;
@@ -35,8 +41,31 @@ justify-content: center;
 .selection{
   height:400px;
   width: 400px;
+  box-shadow: 10px 10px 5px black;
+
 }
 
 #winDisplay{
   font-size: 100;
+
+}
+
+.pick_text{
+  color: #03D5EA;
+  font-size: 30px;
+  font-family: Impact, Charcoal, sans-serif;
+}
+.centered{
+  justify-content: center;
+
+}
+
+#gameEndState{
+  font-family: Impact, Charcoal, sans-serif;
+
+}
+
+#winStatus{
+  font-family: Impact, Charcoal, sans-serif;
+  color: #ECECEC;
 }

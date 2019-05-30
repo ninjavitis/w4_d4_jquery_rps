@@ -3,33 +3,31 @@
       <link rel="stylesheet" href="styles.css">
   </head>
 
-  <body>
-    <div class="status" id="winStatus">
-      <div class="menu_item" id="wins"></div>
-      <div class="menu_item" id="losses"></div>
-      <div class="menu_item" id="draws"></div>
-      <div class="menu_item" id="win_ratio"></div>
-    </div>
-    <div class="choices">
-      <div class="choice" id="0">Rock</div>
-      <div class="choice" id="1">Paper</div>
-      <div class="choice" id="2">Scissors</div>
-    </div>
-    <div class="container" id="results">
-      <div>
-          <div>You Picked</div>
-          <img src="" class="selection" id="player_selection" />
+  <body class="container">
+      <div id="winStatus">
+        <div class="menu_item" id="wins"></div>
+        <div class="menu_item" id="losses"></div>
+        <div class="menu_item" id="draws"></div>
+        <div class="menu_item" id="win_ratio"></div>
       </div>
-      <div class="selection"></div>
-      <div>
-          <div>Opponent Picked</div>
-          <img src="" class="selection" id="cpu_selection" />   
+      <div class="choices">
+        <div class="choice" id="0">Rock</div>
+        <div class="choice" id="1">Paper</div>
+        <div class="choice" id="2">Scissors</div>
       </div>
-    </div>
-    <div class="container center">
-      <div id="gameEndState"></div>
-    </div>
-
+      <div class="displayArea" id="results">
+        <div class="centered">
+            <div class="pick_text">YOU PICKED</div>
+            <img src="" class="selection" id="player_selection" />
+        </div>
+        <div class="centered">
+            <div class="pick_text">OPPONENT PICKED</div>
+            <img src="" class="selection" id="cpu_selection" />   
+        </div>
+      </div>
+      <div class="displayArea center">
+        <div id="gameEndState"></div>
+      </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script type = "text/javascript" src = "rps.js" ></script>
   </body>
